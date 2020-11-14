@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #95B8D1;
+}
+
+.row.max-height {
+    height: 100vh;
+}
+
+.quote-container {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+#submitBtn {
+    color: white !important;
+    background: #95B8D1 !important;
+    border-color: #95B8D1 !important;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+}
+
+#submitBtn:hover {
+    background: #95B8D1 !important;
+    border-color: #95B8D1 !important;
+    color: #333333 !important;
+}
+
+.message-content {
+    color: #95B8D1 !important;
+    font-weight: bold;
+}
+
+.feedback {
+    display: none;
+}
+
+.show {
+    display: block;
+}
